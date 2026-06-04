@@ -1,0 +1,22 @@
+{
+    "row_count": 5000,
+    "column_count": 13,
+    "missing_values": {
+        "admission_id": 0,
+        "patient_id": 0,
+        "age": 0,
+        "gender": 0,
+        "diagnosis": 0,
+        "previous_admissions": 0,
+        "length_of_stay": 0,
+        "medication_count": 0,
+        "lab_abnormal_count": 0,
+        "icu_stay": 0,
+        "admission_date": 0,
+        "discharge_date": 0,
+        "readmission_30_days": 0
+    },
+    "duplicate_rows": 0,
+    "negative_age_count": 0,
+    "invalid_length_of_stay_count": 0
+}
