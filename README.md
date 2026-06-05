@@ -108,3 +108,31 @@ streamlit run src/dashboard/app.py
 ## Business Impact
 
 This platform helps healthcare organizations identify patients at risk of readmission, enabling proactive interventions, improving patient outcomes, and reducing healthcare costs.
+
+---
+
+## Project Screenshots
+
+### AWS S3 Data Lake
+
+![AWS S3 Data Lake](screenshots/aws-s3-data-lake.png)
+
+### AWS Glue ETL Job
+
+![AWS Glue ETL](screenshots/aws-glue-etl.png)
+
+### Amazon Athena Analytics
+
+![Amazon Athena](screenshots/athena-query.png)
+
+### Dashboard Analytics
+
+![Dashboard Analytics](screenshots/dashboard-analytics.png)
+
+### Patient Risk Prediction
+
+![Patient Risk Prediction](screenshots/dashboard-patient-risk.png)
+
+### Project Architecture
+
+![Project Architecture](screenshots/dashboard-architecture.png)
