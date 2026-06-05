@@ -6,13 +6,19 @@ An end-to-end Healthcare Analytics and Machine Learning platform designed to pre
 
 This project demonstrates Data Engineering and Data Science skills using:
 
-- Python ETL Pipelines
-- AWS S3 Data Lake
-- AWS Glue Data Catalog
-- Amazon Athena
-- Machine Learning
-- Streamlit Dashboard
-- Docker (Phase 3)
+Raw Data (S3)
+↓
+AWS Glue ETL Job (PySpark)
+↓
+Processed Data (S3)
+↓
+Glue Catalog
+↓
+Athena
+↓
+ML
+↓
+Dashboard
 
 ---
 
