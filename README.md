@@ -8,6 +8,13 @@ This project demonstrates cloud-based data engineering and machine learning usin
 
 ---
 
+## Live Demo
+
+Streamlit Dashboard:
+
+https://healthcare-readmission-prediction-platform-af4g98v7heufwky2aoe.streamlit.app/
+---
+
 ## Architecture
 
 Healthcare Admissions Data
