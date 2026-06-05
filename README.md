@@ -2,77 +2,89 @@
 
 ## Overview
 
-An end-to-end Healthcare Analytics and Machine Learning platform designed to predict 30-day patient readmission risk.
+An end-to-end Healthcare Analytics, Data Engineering, and Machine Learning platform designed to predict 30-day patient readmission risk.
 
-This project demonstrates Data Engineering and Data Science skills using:
-
-Raw Data (S3)
-↓
-AWS Glue ETL Job (PySpark)
-↓
-Processed Data (S3)
-↓
-Glue Catalog
-↓
-Athena
-↓
-ML
-↓
-Dashboard
+This project demonstrates cloud-based data engineering and machine learning using AWS services and modern analytics tools.
 
 ---
 
 ## Architecture
 
 Healthcare Admissions Data
-        ↓
+↓
 Python ETL Pipeline
-        ↓
-Amazon S3 Data Lake
-        ↓
+↓
+Amazon S3 Data Lake (Raw Zone)
+↓
+AWS Glue Crawler
+↓
 AWS Glue Data Catalog
-        ↓
-Amazon Athena
-        ↓
+↓
+AWS Glue Visual ETL (PySpark)
+↓
+Amazon S3 Curated Zone (Parquet)
+↓
+Amazon Athena SQL
+↓
 Machine Learning Model
-        ↓
+↓
 Streamlit Dashboard
 
 ---
 
 ## Key Features
 
-- Synthetic healthcare admissions data generation
-- Data quality validation
-- Feature engineering
-- Readmission prediction model
-- Interactive analytics dashboard
-- AWS cloud integration
+* Synthetic healthcare admissions data generation
+* Data quality validation and cleansing
+* Feature engineering pipeline
+* AWS S3 Data Lake architecture
+* AWS Glue Crawler and Data Catalog integration
+* AWS Glue Visual ETL transformations
+* Amazon Athena SQL analytics
+* Patient readmission risk prediction
+* Interactive Streamlit dashboard
+* End-to-end cloud analytics workflow
 
 ---
 
 ## Model Performance
 
-| Metric | Score |
-|----------|----------|
-| Accuracy | 78% |
-| Precision | 79% |
-| Recall | 80% |
-| F1 Score | 80% |
-| ROC-AUC | 0.86 |
+| Metric    | Score |
+| --------- | ----- |
+| Accuracy  | 78%   |
+| Precision | 79%   |
+| Recall    | 80%   |
+| F1 Score  | 80%   |
+| ROC-AUC   | 0.86  |
 
 ---
 
 ## Technologies
 
-- Python
-- Pandas
-- Scikit-Learn
-- Streamlit
-- AWS S3
-- AWS Glue
-- Amazon Athena
-- GitHub
+### Data Engineering
+
+* Python
+* AWS S3
+* AWS Glue Crawler
+* AWS Glue Data Catalog
+* AWS Glue Visual ETL
+* Amazon Athena
+
+### Data Science
+
+* Pandas
+* Scikit-Learn
+* Feature Engineering
+* Classification Modeling
+
+### Visualization
+
+* Streamlit
+
+### DevOps & Version Control
+
+* Git
+* GitHub
 
 ---
 
@@ -89,3 +101,10 @@ python src/etl/run_local_etl.py
 python src/models/train_model.py
 
 streamlit run src/dashboard/app.py
+```
+
+---
+
+## Business Impact
+
+This platform helps healthcare organizations identify patients at risk of readmission, enabling proactive interventions, improving patient outcomes, and reducing healthcare costs.
