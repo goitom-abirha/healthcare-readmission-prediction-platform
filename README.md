@@ -136,3 +136,13 @@ This platform helps healthcare organizations identify patients at risk of readmi
 ### Project Architecture
 
 ![Project Architecture](screenshots/dashboard-architecture.png)
+
+## Docker Deployment
+
+### Running Container
+
+![Docker Container](screenshots/docker-container-running.png)
+
+### Container Logs
+
+![Docker Logs](screenshots/docker-container-logs.png)
