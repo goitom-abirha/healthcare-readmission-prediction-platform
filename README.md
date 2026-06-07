@@ -1,4 +1,11 @@
+
 # Healthcare Patient Readmission Prediction Platform
+
+## Live Demo
+
+Streamlit Dashboard:
+
+https://healthcare-readmission-prediction-platform-af4g98v7heufwky2aoe.streamlit.app/
 
 ## Overview
 
@@ -6,13 +13,6 @@ An end-to-end Healthcare Analytics, Data Engineering, and Machine Learning platf
 
 This project demonstrates cloud-based data engineering and machine learning using AWS services and modern analytics tools.
 
----
-
-## Live Demo
-
-Streamlit Dashboard:
-
-https://healthcare-readmission-prediction-platform-af4g98v7heufwky2aoe.streamlit.app/
 ---
 
 ## Architecture
